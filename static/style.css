@@ -1,0 +1,60 @@
+html {
+  background-color:#214c84;
+  background-blend-mode:overlay;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:100%;
+}
+
+body {
+  background-color:transparent;
+}
+
+.registration-form {
+  padding:50px 0;
+}
+
+.registration-form form {
+  max-width:800px;
+  padding:50px 70px;
+  border-radius:10px;
+  box-shadow:4px 4px 15px rgba(0, 0, 0, 0.2);
+  background-color:#fff;
+}
+
+.registration-form form h3 {
+  font-weight:bold;
+  margin-bottom:30px;
+}
+
+.registration-form .item {
+  border-radius:10px;
+  margin-bottom:0px;
+  padding:10px 20px;
+}
+
+.registration-form .create-account {
+  border-radius:30px;
+  padding:10px 20px;
+  font-size:18px;
+  font-weight:bold;
+  background-color:#3f93ff;
+  border:none;
+  color:white;
+  margin-top:30px;
+}
+
+.error{
+  color:red;
+}
+
+.welcome{
+  font-size: 50px;
+  color: white;
+}
+
+.success {
+  color: green;
+  font-size: 30px;
+}
